@@ -1,0 +1,255 @@
+
+.california{
+  background-image:  url(https://themepack.me/i/c/749x467/media/g/912/california-theme-kp4.jpg) ;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+}
+  
+  
+
+
+h1 {
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#E0AD1F ;
+    
+    
+  
+}
+
+.review,.beef,.mono {
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    background-color: black;
+
+
+}
+.review2{
+font-family:'Courier New', Courier, monospace;
+color:black;
+background-color:#E0AD1F ;
+}
+
+
+
+
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:left;
+}
+
+.kingKendricK{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:20%;
+    width:40%;
+    max-width: 100%;
+    height:auto;
+   
+
+}
+
+.dam:hover,.Goodkid:hover,.butterFly:hover{
+    width:100%;
+    opacity:0.5;
+    
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+
+}
+
+
+.column{
+    float:left;
+    width:33.33%;
+}
+
+.row{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+.column img {
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+
+.albums{
+    background-color:#E0AD1F ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', fantasy;
+    width:100%;
+    text-align:left;
+    
+
+}
+.Segway{
+   background-color:#E0AD1F ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', fantasy;
+    width:100%
+    
+}
+
+.parent-container{
+    text-align:center;
+    margin-top:20px;
+}
+
+
+
+.btn{
+    padding: 15px 70px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.btn::after{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(54, 54, 70);
+    left:0;
+    top: 0;
+    border-radius:10px;
+    z-index: -1;
+
+}
+
+/*animation */
+.btn::before{
+    content:"";
+    background: linear-gradient(45deg,red,white);
+    position:absolute;
+    top:-2px;
+    left:-2px;
+    background-size:600%;
+    z-index:-1;
+    width: calc(100% + 10px);
+    height:calc(100% + 10px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition:opacity .3s ease-in-out;
+    border-radius:10px;
+    opacity:0;
+}
+
+@keyframes glowing {
+
+    0% {background-position:0 0 ;}
+    50% {background-position:40% 0 ;}
+    100% {background-position:0 0 ;}
+
+}
+
+/*Hover*/
+.btn:hover::before{
+    opacity:1;
+
+}
+.btn:active:after{
+    background:transparent;
+}
+
+.btn:active{
+    color:gray;
+    font-weight:bold;
+}
+
+
+.kbtn{
+    padding: 15px 70px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.kbtn::after{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(54, 54, 70);
+    left:0;
+    top: 0;
+    border-radius:10px;
+    z-index: -1;
+
+}
+
+/*animation */
+.kbtn::before{
+    content:"";
+    background: linear-gradient(45deg,blue,white);
+    position:absolute;
+    top:-2px;
+    left:-2px;
+    background-size:600%;
+    z-index:-1;
+    width: calc(100% + 10px);
+    height:calc(100% + 10px);
+    filter: blur(8px);
+    animation:glowing 20s linear infinite ;
+    transition:opacity .3s ease-in-out;
+    border-radius:10px;
+    opacity:0;
+}
+
+@keyframes glowing {
+
+    0% {background-position:0 0 ;}
+    50% {background-position:40% 0 ;}
+    100% {background-position:0 0 ;}
+
+}
+
+/*Hover*/
+.kbtn:hover::before{
+    opacity:1;
+
+}
+.kbtn:active:after{
+    background:transparent;
+}
+
+.kbtn:active{
+    color:gray;
+    font-weight:bold;
+}
+
+
+.question{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+    color:black;
+    font-size: large;
+    background-color:#E0AD1F ;
+}
+
+
